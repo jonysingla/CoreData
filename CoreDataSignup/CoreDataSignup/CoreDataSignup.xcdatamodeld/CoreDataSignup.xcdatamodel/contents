@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PlaceDetail" representedClassName=".PlaceDetails" syncable="YES">
+        <attribute name="dateCreated" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="placeDescription" attributeType="String"/>
+        <attribute name="placeImage" attributeType="Binary"/>
+        <attribute name="placeName" attributeType="String"/>
+    </entity>
+    <entity name="Signup" representedClassName=".Signup" syncable="YES">
+        <attribute name="dateCreated" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="password" attributeType="String"/>
+        <attribute name="phoneNumber" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Signup" positionX="-36" positionY="-27" width="128" height="88"/>
+        <element name="PlaceDetail" positionX="9" positionY="45" width="128" height="103"/>
+    </elements>
+</model>
